@@ -4,7 +4,7 @@
 **High**
 
 ### Reported by
-**karieddine**
+**Khaled Sarieddine ([LinkedIn](https://www.linkedin.com/in/khaled-salah-sarieddine/))**
 
 ### Date Reported
 **12/15/2024**
