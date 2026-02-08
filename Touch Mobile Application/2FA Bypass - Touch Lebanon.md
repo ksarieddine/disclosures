@@ -65,6 +65,7 @@ Given that this vulnerability allows account takeover, this vulnerability is con
 
 ### Reference
 - [Touch Lebanon Mobile App](https://www.touch.com.lb/autoforms/portal/touch/personal/contentandapps/mobileapp)
+- [CVE-2025-50503 (NVD)](https://nvd.nist.gov/vuln/detail/CVE-2025-50503?utm_source=feedly)
 
 ### Vendor of Product
 - Touch Mobile Application and Website Backend
