@@ -11,7 +11,7 @@
 **10/05/2025**
 
 ### Status
-**Closed and Remediated**
+**Published by CISA (vendor did not respond to coordination requests)**
 
 ### Published by CISA
 **02/26/2026**
@@ -69,7 +69,8 @@ Given that this vulnerability set includes an unauthenticated access path (CVSS 
 - [CVE-2026-22890](https://www.cve.org/CVERecord?id=CVE-2026-22890)
 
 ### Vendor of Product
-- EV2GO – EV charging management platform (ev2go.io)
+- EV2GO â€“ EV charging management platform (ev2go.io)
 
 ### Affected Product Code Base
-- EV2GO ev2go.io – All versions
+- EV2GO ev2go.io â€“ All versions
+

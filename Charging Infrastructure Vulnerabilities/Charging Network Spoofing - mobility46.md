@@ -11,7 +11,7 @@
 **10/05/2025**
 
 ### Status
-**Closed and Remediated**
+**Published by CISA (vendor did not respond to coordination requests)**
 
 ### Published by CISA
 **02/26/2026**
@@ -69,7 +69,8 @@ Given that this vulnerability set includes an unauthenticated access path (CVSS 
 - [CVE-2026-22878](https://www.cve.org/CVERecord?id=CVE-2026-22878)
 
 ### Vendor of Product
-- Mobility46 (Sweden) – EV charging management platform (mobility46.se)
+- Mobility46 (Sweden) â€“ EV charging management platform (mobility46.se)
 
 ### Affected Product Code Base
-- Mobility46 mobility46.se – All versions
+- Mobility46 mobility46.se â€“ All versions
+

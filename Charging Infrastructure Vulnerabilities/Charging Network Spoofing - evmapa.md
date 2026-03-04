@@ -78,3 +78,4 @@ Given that this vulnerability set includes an unauthenticated access path (CVSS 
 
 ### Affected Product Code Base
 - EVMAPA platform (CISA advisory indicates impact across deployed EVMAPA instances; explicit version granularity is not provided in public CVE summaries).
+

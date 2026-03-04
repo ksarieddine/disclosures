@@ -2,7 +2,7 @@
 
 This repository contains security vulnerability disclosures and assigned CVEs discovered by ksarieddine. It serves as an index of findings with links to detailed technical write-ups and impact summaries.
 
-**8 companies affected · 28 CVEs assigned**
+**11 companies affected Â· 40 CVEs assigned**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Sector-EV%20Charging%20Infrastructure-2ea44f?style=flat-square&logo=ev-station&logoColor=white"/>
@@ -115,5 +115,42 @@ This repository contains security vulnerability disclosures and assigned CVEs di
       <td><nobr>02/26/2026</nobr></td>
       <td><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-08">CISA</a></td>
     </tr>
+    <tr>
+      <td>Mobiliti</td>
+      <td>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20mobiliti.md"><code>CVE-2026-26051</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20mobiliti.md"><code>CVE-2026-20882</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20mobiliti.md"><code>CVE-2026-27764</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20mobiliti.md"><code>CVE-2026-27777</code></a></nobr>
+      </td>
+      <td>Missing WebSocket authentication enables station impersonation (CWE-306), missing rate limiting enables brute-force and DoS (CWE-307), predictable session identifiers allow session hijacking and shadowing (CWE-613), and station authentication identifiers are exposed via public mapping platforms (CWE-522).</td>
+      <td><nobr>03/03/2026</nobr></td>
+      <td><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-06">CISA</a></td>
+    </tr>
+    <tr>
+      <td>ePower</td>
+      <td>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20epower.md"><code>CVE-2026-22552</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20epower.md"><code>CVE-2026-27778</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20epower.md"><code>CVE-2026-24912</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20epower.md"><code>CVE-2026-27770</code></a></nobr>
+      </td>
+      <td>Missing WebSocket authentication enables station impersonation (CWE-306), missing rate limiting enables brute-force and DoS (CWE-307), predictable session identifiers allow session hijacking and shadowing (CWE-613), and station authentication identifiers are exposed via public mapping platforms (CWE-522).</td>
+      <td><nobr>03/03/2026</nobr></td>
+      <td><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-07">CISA</a></td>
+    </tr>
+    <tr>
+      <td>Everon</td>
+      <td>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20everon.md"><code>CVE-2026-26288</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20everon.md"><code>CVE-2026-24696</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20everon.md"><code>CVE-2026-20748</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20everon.md"><code>CVE-2026-27027</code></a></nobr>
+      </td>
+      <td>Missing WebSocket authentication enables station impersonation (CWE-306), missing rate limiting enables brute-force and DoS (CWE-307), predictable session identifiers allow session hijacking and shadowing (CWE-613), and station authentication identifiers are exposed via public mapping platforms (CWE-522).</td>
+      <td><nobr>03/03/2026</nobr></td>
+      <td><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-08">CISA</a></td>
+    </tr>
   </tbody>
 </table>
+

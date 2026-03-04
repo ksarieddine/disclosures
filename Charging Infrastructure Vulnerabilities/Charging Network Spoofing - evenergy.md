@@ -11,7 +11,7 @@
 **10/05/2025**
 
 ### Status
-**Closed and Remediated**
+**Published by CISA (vendor did not respond to coordination requests)**
 
 ### Published by CISA
 **02/26/2026**
@@ -69,7 +69,8 @@ Given that this vulnerability set includes an unauthenticated access path (CVSS 
 - [CVE-2026-25774](https://www.cve.org/CVERecord?id=CVE-2026-25774)
 
 ### Vendor of Product
-- EV Energy (United Kingdom) – EV charging management platform (ev.energy)
+- EV Energy (United Kingdom) â€“ EV charging management platform (ev.energy)
 
 ### Affected Product Code Base
-- EV Energy ev.energy – All versions
+- EV Energy ev.energy â€“ All versions
+

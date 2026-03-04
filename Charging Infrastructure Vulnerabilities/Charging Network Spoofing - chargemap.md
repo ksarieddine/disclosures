@@ -11,7 +11,7 @@
 **10/05/2025**
 
 ### Status
-**Closed and Remediated**
+**Published by CISA (vendor did not respond to coordination requests)**
 
 ### Published by CISA
 **02/26/2026**
@@ -69,7 +69,8 @@ Given that this vulnerability set includes an unauthenticated access path (CVSS 
 - [CVE-2026-20791](https://www.cve.org/CVERecord?id=CVE-2026-20791)
 
 ### Vendor of Product
-- Chargemap (France) – EV charging network management platform (chargemap.com)
+- Chargemap (France) â€“ EV charging network management platform (chargemap.com)
 
 ### Affected Product Code Base
-- Chargemap chargemap.com – All versions
+- Chargemap chargemap.com â€“ All versions
+

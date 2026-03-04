@@ -1,4 +1,4 @@
-## Vulnerability Report: Charging Network Spoofing / Session Abuse (CloudCharge)
+## Vulnerability Report: Charging Network Spoofing / Session Abuse (Everon)
 
 ### Severity
 **Critical overall (max CVSS v3.1: 9.4)**
@@ -11,29 +11,29 @@
 **10/05/2025**
 
 ### Status
-**Published by CISA (vendor did not respond to coordination requests)**
+**Published by CISA (platform shut down on 12/01/2025)**
 
 ### Published by CISA
-**02/26/2026**
+**03/03/2026**
 
 ### Summary
-A critical set of vulnerabilities has been identified in the CloudCharge (cloudcharge.se) EV charging management platform, as documented in CISA advisory ICSA-26-057-03. These issues enable unauthenticated station impersonation, session hijacking, brute-force authentication attacks, and credential exposure via public mapping platforms.
+A critical set of vulnerabilities has been identified in Everon OCPP backends, as documented in CISA advisory ICSA-26-062-08. These issues enable unauthenticated station impersonation, session hijacking/shadowing, brute-force authentication attacks, and credential exposure via public mapping platforms.
 
 ### Description
 The advisory maps to four vulnerabilities:
-- **CVE-2026-20781 (CVSS 9.4, CWE-306)**: WebSocket endpoints lack authentication, allowing attackers to impersonate charging stations and issue unauthorized OCPP commands to the backend.
-- **CVE-2026-25114 (CVSS 7.5, CWE-307)**: Missing rate limiting on the WebSocket API enables denial-of-service attacks and brute-force authentication attempts.
-- **CVE-2026-27652 (CVSS 7.3, CWE-613)**: Predictable session identifiers allow multiple connections to use the same session ID, enabling hijacking and displacement of legitimate stations.
-- **CVE-2026-20733 (CVSS 6.5, CWE-522)**: Charging station authentication identifiers are publicly accessible via web-based mapping platforms.
+- **CVE-2026-26288 (CVSS 9.4, CWE-306)**: WebSocket endpoints lack authentication, allowing attackers to impersonate charging stations and issue unauthorized OCPP commands to the backend.
+- **CVE-2026-24696 (CVSS 7.5, CWE-307)**: Missing rate limiting on the WebSocket API enables denial-of-service and brute-force authentication attacks.
+- **CVE-2026-20748 (CVSS 7.3, CWE-613)**: Predictable/shared station session identifiers allow hijacking or shadowing of legitimate charger sessions.
+- **CVE-2026-27027 (CVSS 6.5, CWE-522)**: Charging-station authentication identifiers are publicly accessible via web-based mapping platforms.
 
 Together, these weaknesses can be chained to impersonate charging endpoints, maintain unauthorized backend presence, and disrupt or manipulate charging-session state.
 
 ### Impact
 The exploitation of this vulnerability can lead to the following risks:
-- **Unauthorized backend access**: Attackers connect and issue commands without valid credentials (CVE-2026-20781).
-- **Service disruption and brute-force exposure**: Repeated authentication traffic degrades availability and increases credential attack risk (CVE-2026-25114).
-- **Session integrity loss**: Concurrent reuse of session IDs causes data inconsistency and possible station displacement (CVE-2026-27652).
-- **Credential exposure**: Station IDs discoverable via public mapping enable targeted attacks (CVE-2026-20733).
+- **Unauthorized backend access**: Attackers can connect and issue commands without valid credentials (CVE-2026-26288).
+- **Service disruption and brute-force exposure**: Repeated authentication traffic can degrade availability and increase credential attack risk (CVE-2026-24696).
+- **Session integrity loss**: Shared/predictable station session identifiers can displace legitimate stations and corrupt session state (CVE-2026-20748).
+- **Credential exposure**: Publicly available station identifiers increase targeted attack feasibility (CVE-2026-27027).
 
 ### Root Cause
 - Missing mandatory authentication enforcement for WebSocket connection paths.
@@ -62,15 +62,14 @@ To mitigate the risks associated with this vulnerability, the following actions 
 Given that this vulnerability set includes an unauthenticated access path (CVSS 9.4) and additional high-severity weaknesses, the overall risk is considered high to critical. Exploitation can lead to unauthorized control of charging workflows, service disruption, and significant operational and reputational impact.
 
 ### Reference
-- [CISA ICS Advisory ICSA-26-057-03](https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-03)
-- [CVE-2026-20781](https://www.cve.org/CVERecord?id=CVE-2026-20781)
-- [CVE-2026-25114](https://www.cve.org/CVERecord?id=CVE-2026-25114)
-- [CVE-2026-27652](https://www.cve.org/CVERecord?id=CVE-2026-27652)
-- [CVE-2026-20733](https://www.cve.org/CVERecord?id=CVE-2026-20733)
+- [CISA ICS Advisory ICSA-26-062-08](https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-08)
+- [CVE-2026-26288](https://www.cve.org/CVERecord?id=CVE-2026-26288)
+- [CVE-2026-24696](https://www.cve.org/CVERecord?id=CVE-2026-24696)
+- [CVE-2026-20748](https://www.cve.org/CVERecord?id=CVE-2026-20748)
+- [CVE-2026-27027](https://www.cve.org/CVERecord?id=CVE-2026-27027)
 
 ### Vendor of Product
-- CloudCharge (Sweden) â€“ EV charging management platform (cloudcharge.se)
+- Everon (Netherlands) - OCPP backend platform for EV charging infrastructure
 
 ### Affected Product Code Base
-- CloudCharge cloudcharge.se â€“ All versions
-
+- Everon api.everon.io: vers:all/*

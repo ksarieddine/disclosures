@@ -11,7 +11,7 @@
 **10/05/2025**
 
 ### Status
-**Closed and Remediated**
+**Published by CISA (vendor did not respond to coordination requests)**
 
 ### Published by CISA
 **02/26/2026**
@@ -69,7 +69,8 @@ Given that this vulnerability set includes an unauthenticated access path (CVSS 
 - [CVE-2026-27773](https://www.cve.org/CVERecord?id=CVE-2026-27773)
 
 ### Vendor of Product
-- SWITCH EV – EV charging management platform (swtchenergy.com)
+- SWITCH EV â€“ EV charging management platform (swtchenergy.com)
 
 ### Affected Product Code Base
-- SWITCH EV swtchenergy.com – All versions
+- SWITCH EV swtchenergy.com â€“ All versions
+
