@@ -1,6 +1,6 @@
 ﻿# <img src="logo.png" alt="CVE Connoisseur" width="45" align="center"/> ksarieddine's disclosures and CVEs
 
-This repository contains security vulnerability disclosures and assigned CVEs discovered by ksarieddine. It serves as an index of findings with links to detailed technical write-ups and impact summaries.
+This repository contains security vulnerability disclosures and assigned CVEs discovered by Khaled Sarieddine. It serves as an index of findings with links to detailed technical write-ups and impact summaries.
 
 > This repository is for educational and research purposes. Please credit appropriately when referencing these findings.
 
