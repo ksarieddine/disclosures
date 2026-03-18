@@ -1,8 +1,8 @@
-# <img src="logo.png" alt="CVE Connoisseur" width="45" align="center"/> ksarieddine's disclosures and CVEs
+﻿# <img src="logo.png" alt="CVE Connoisseur" width="45" align="center"/> ksarieddine's disclosures and CVEs
 
 This repository contains security vulnerability disclosures and assigned CVEs discovered by ksarieddine. It serves as an index of findings with links to detailed technical write-ups and impact summaries.
 
-**11 companies affected Â· 40 CVEs assigned**
+**11 companies affected, 40 CVEs assigned**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Sector-EV%20Charging%20Infrastructure-2ea44f?style=flat-square&logo=ev-station&logoColor=white"/>
