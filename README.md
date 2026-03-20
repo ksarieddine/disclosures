@@ -4,7 +4,7 @@ This repository contains security vulnerability disclosures and assigned CVEs di
 
 > This repository is for educational and research purposes. Please credit appropriately when referencing these findings.
 
-**11 companies affected, 40 CVEs assigned**
+**13 companies affected, 48 CVEs assigned**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Sector-EV%20Charging%20Infrastructure-2ea44f?style=flat-square&logo=ev-station&logoColor=white"/>
@@ -152,6 +152,30 @@ This repository contains security vulnerability disclosures and assigned CVEs di
       <td>Missing WebSocket authentication enables station impersonation (CWE-306), missing rate limiting enables brute-force and DoS (CWE-307), predictable session identifiers allow session hijacking and shadowing (CWE-613), and station authentication identifiers are exposed via public mapping platforms (CWE-522).</td>
       <td><nobr>03/03/2026</nobr></td>
       <td><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-08">CISA</a></td>
+    </tr>
+    <tr>
+      <td>CTEK Chargeportal</td>
+      <td>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20ctek.md"><code>CVE-2026-25192</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20ctek.md"><code>CVE-2026-31904</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20ctek.md"><code>CVE-2026-27649</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20ctek.md"><code>CVE-2026-28204</code></a></nobr>
+      </td>
+      <td>Missing WebSocket authentication enables station impersonation (CWE-306), missing rate limiting enables brute-force and DoS (CWE-307), predictable session identifiers allow session hijacking (CWE-613), and station authentication identifiers are exposed via public mapping platforms (CWE-522).</td>
+      <td><nobr>03/19/2026</nobr></td>
+      <td><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-06">CISA</a></td>
+    </tr>
+    <tr>
+      <td>IGL-Technologies eParking.fi</td>
+      <td>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20eparking.md"><code>CVE-2026-29796</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20eparking.md"><code>CVE-2026-31903</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20eparking.md"><code>CVE-2026-32663</code></a></nobr><br>
+        <nobr><a href="Charging%20Infrastructure%20Vulnerabilities/Charging%20Network%20Spoofing%20-%20eparking.md"><code>CVE-2026-31926</code></a></nobr>
+      </td>
+      <td>Missing WebSocket authentication enables station impersonation (CWE-306), missing rate limiting enables DoS and brute-force attacks (CWE-307), identical session identifiers allow session hijacking and displacement (CWE-613), and station authentication identifiers are exposed via public mapping platforms (CWE-522).</td>
+      <td><nobr>03/19/2026</nobr></td>
+      <td><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-07">CISA</a></td>
     </tr>
   </tbody>
 </table>
